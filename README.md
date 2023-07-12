@@ -23,6 +23,7 @@ Users should be able to:
 ### Links
 
 - Live URL: [Live URL](https://arkitecth.github.io/advice-generator/)
+- Advice Slip: [Advice Slip](https://api.adviceslip.com/)
 
 ### Built with
 
@@ -32,7 +33,8 @@ Users should be able to:
 - Async JS
 
 ## Acknowledgments
-This Project could not have been possible without [Advice Slip]("https://api.adviceslip.com/")
+This Project could not have been possible without Advice Slip
+
 
 
 
