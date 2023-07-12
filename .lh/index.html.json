@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 30,
             "patches": [
                 {
                     "date": 1689181310596,
@@ -108,6 +108,26 @@
                 {
                     "date": 1689186525862,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n+    <p class=\"advice-text\">“It is easy to sit up and take notice, what's difficult is getting up and taking action.”</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n"
+                },
+                {
+                    "date": 1689187567173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,10 @@\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n+    \n+    <script src=\"script.js\"></script>\n    \n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188305589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\">“It is easy to sit up and take notice, what's difficult is getting up and taking action.”</p>\n+    <p class=\"advice-text\"></p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n"
+                },
+                {
+                    "date": 1689188311009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n-    \n     <script src=\"script.js\"></script>\n    \n   </div>\n </body>\n"
+                },
+                {
+                    "date": 1689188325965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\"></p>\n+    <p class=\"advice-text\">Loading...</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n"
+                },
+                {
+                    "date": 1689188619315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n+    <p class=\"advice\">Advice <span class=\"advice-num\">117</span></p>\n     <p class=\"advice-text\">Loading...</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n"
                 }
             ],
             "date": 1689181310596,

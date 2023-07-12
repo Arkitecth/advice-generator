@@ -1,0 +1,230 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 53,
+            "patches": [
+                {
+                    "date": 1689187573336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1689187579328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+const bo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187611395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-const bo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187618711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+function updateText() {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187629234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,7 @@\n function updateText() {\n+\n+}\n+\n+function fetchData() {\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187692499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n+\n+\n function updateText() {\n \n }\n \n function fetchData() {\n-    \n+    const endpoint\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187700740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,6 @@\n \n }\n \n function fetchData() {\n-    const endpoint\n-\n+    const endpoint = \"https://api.adviceslip.com/advice\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187732694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n+    fetch(endpoint)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187740070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,8 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n-    fetch(endpoint)\n+    fetch(endpoint, () => {\n+        \n+    })\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187750888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n-    fetch(endpoint, () => {\n-        \n+    fetch(endpoint, (response) => {\n+        console.log(response)\n     })\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187758437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint, (response) => {\n         console.log(response)\n-    })\n+    }).then((data))\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187782602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,6 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n-    fetch(endpoint, (response) => {\n-        console.log(response)\n-    }).then((data))\n+    fetch(endpoint)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187799728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,8 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n-    fetch(endpoint)\n+    fetch(endpoint).then((response) => {\n+        \n+    })\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187805114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n-    fetch(endpoint).then((response) => {\n-        \n+    fetch(endpoint)\n+    .then((response) => {\n+        console.log(response)\n     })\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187824958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,7 @@\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n-    .then((response) => {\n-        console.log(response)\n-    })\n+    .then((response) => console.log(response))\n+    .the\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187835284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => console.log(response))\n-    .the\n+    .then((data) => console.log(data))\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187843738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,7 @@\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => console.log(response))\n     .then((data) => console.log(data))\n-}\n\\ No newline at end of file\n+}\n+\n+fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187902279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n-    .then((response) => console.log(response))\n+    .then((response) => response.json())\n     .then((data) => console.log(data))\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187916996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => console.log(data))\n+    .then((data) => data[])\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187927710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => data[])\n+    .then((data) => data.slip[])\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187935440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => data.slip[])\n+    .then((data) => data.slip.advice)\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187943194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => data.slip.advice)\n+    .then((data) => console.log(data.slip.advice))\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187963162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \n }\n \n function fetchData() {\n+    const advice\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => console.log(data.slip.advice))\n"
+                },
+                {
+                    "date": 1689187980572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n \n }\n \n function fetchData() {\n-    const advice\n+    const advice = \"\"\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => console.log(data.slip.advice))\n+    .then((data) => advice = data.slip.advice))\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187989595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n \n \n-function updateText() {\n+function updateText(advice) {\n \n }\n \n function fetchData() {\n     const advice = \"\"\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => advice = data.slip.advice))\n+    .then((data) => advice = data.slip.advice)\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187995044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-\n+    \n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188002759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    \n+    document.querySelector[\"\"]\n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188008113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    document.querySelector[\"\"]\n+    document.querySelector[\"advice-text\"]\n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188027503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    document.querySelector[\"advice-text\"]\n+    document.querySelector[\"advice-text\"].textContent = \"\"\n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188032586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    document.querySelector[\"advice-text\"].textContent = \"\"\n+    document.querySelector[\"advice-text\"].textContent = advice\n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188052539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n \n \n function updateText(advice) {\n-    document.querySelector[\"advice-text\"].textContent = advice\n+    document.querySelector[\"advice-text\"].textContent = advice; \n }\n \n function fetchData() {\n     const advice = \"\"\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => advice = data.slip.advice)\n+    .then((data) => updateText(data.slip.advice))\n }\n \n fetchData(); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188162600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    document.querySelector[\"advice-text\"].textContent = advice; \n+    document.querySelector(\"advice-text\").textContent = advice; \n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188167874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n \n function updateText(advice) {\n-    document.querySelector(\"advice-text\").textContent = advice; \n+    document.querySelector(\".advice-text\").textContent = advice; \n }\n \n function fetchData() {\n     const advice = \"\"\n"
+                },
+                {
+                    "date": 1689188192538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n function fetchData() {\n-    const advice = \"\"\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => updateText(data.slip.advice))\n"
+                },
+                {
+                    "date": 1689188200642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,7 @@\n     .then((response) => response.json())\n     .then((data) => updateText(data.slip.advice))\n }\n \n-fetchData(); \n\\ No newline at end of file\n+fetchData(); \n+\n+document.querySelector(#)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188212710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n-\n-\n function updateText(advice) {\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n@@ -12,5 +10,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(#)\n\\ No newline at end of file\n+document.querySelector(\"#dice-icon\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188218894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(\"#dice-icon\")\n\\ No newline at end of file\n+document.querySelector(\".dice-icon\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188228255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(\".dice-icon\")\n\\ No newline at end of file\n+document.querySelector(\".dice-icon\").addEventListener(\"click\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188233483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(\".dice-icon\").addEventListener(\"click\")\n\\ No newline at end of file\n+document.querySelector(\".dice-icon\").addEventListener(\"click\", fetchData); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188296051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(\".dice-icon\").addEventListener(\"click\", fetchData); \n\\ No newline at end of file\n+document.querySelector(\"container div\").addEventListener(\"click\", fetchData); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188419726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n function updateText(advice) {\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n+function updateAdviceNum() {\n+    \n+}\n+\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n@@ -10,5 +14,5 @@\n }\n \n fetchData(); \n \n-document.querySelector(\"container div\").addEventListener(\"click\", fetchData); \n\\ No newline at end of file\n+document.querySelector(\".container div\").addEventListener(\"click\", fetchData); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689188429536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n function updateAdviceNum() {\n-    \n+    document.querySelector(.advice-num)\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n"
+                },
+                {
+                    "date": 1689188435028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n function updateAdviceNum() {\n-    document.querySelector(.advice-num)\n+    document.querySelector(\"\".advice-num\")\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n"
+                },
+                {
+                    "date": 1689188441467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n function updateAdviceNum() {\n-    document.querySelector(\"\".advice-num\")\n+    document.querySelector(\".advice-num\").textContent = \n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n"
+                },
+                {
+                    "date": 1689188448651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n function updateText(advice) {\n     document.querySelector(\".advice-text\").textContent = advice; \n }\n \n-function updateAdviceNum() {\n-    document.querySelector(\".advice-num\").textContent = \n+function updateAdviceNum(num) {\n+    document.querySelector(\".advice-num\").textContent = num\n }\n \n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n"
+                },
+                {
+                    "date": 1689188482756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => updateText(data.slip.advice))\n+    .then((data) => ({\n+        updateText(data.slip.advice)\n+    }))\n }\n \n fetchData(); \n \n"
+                },
+                {
+                    "date": 1689188490161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => ({\n-        updateText(data.slip.advice)\n-    }))\n+        updateText(data.slip.advice); \n+    })\n }\n \n fetchData(); \n \n"
+                },
+                {
+                    "date": 1689188503660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => ({\n-        updateText(data.slip.advice); \n+    .then((data) => () => {\n+        \n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188509465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => () => {\n-        \n+        updateText(data)\n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188518078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => () => {\n-        updateText(data)\n+        updateText(data.slip.)\n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188528886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => () => {\n-        updateText(data.slip.)\n+        updateText(data.slip.advice)\n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188535619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => () => {\n         updateText(data.slip.advice)\n+        updateAdviceNum(data.slip.)\n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188543558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     fetch(endpoint)\n     .then((response) => response.json())\n     .then((data) => () => {\n         updateText(data.slip.advice)\n-        updateAdviceNum(data.slip.)\n+        updateAdviceNum(data.slip.id)\n     })\n }\n \n fetchData(); \n"
+                },
+                {
+                    "date": 1689188582646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n function fetchData() {\n     const endpoint = \"https://api.adviceslip.com/advice\"\n     fetch(endpoint)\n     .then((response) => response.json())\n-    .then((data) => () => {\n-        updateText(data.slip.advice)\n-        updateAdviceNum(data.slip.id)\n+    .then((data) => (){\n+        updateText(data.slip.advice);\n+        updateAdviceNum(data.slip.id);\n     })\n }\n \n fetchData(); \n"
+                }
+            ],
+            "date": 1689187573336,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}
