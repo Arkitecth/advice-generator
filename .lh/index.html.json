@@ -1,0 +1,118 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1689181310596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1689181345294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,9 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n \n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   <link rel=\"stylesheet\" href=\"style.css\">\n-  \n-  <title>Frontend Mentor | Advice generator app</title>\n+  <title>Advice generator app</title>\n \n </head>\n <body>\n   Advice #117\n"
+                },
+                {
+                    "date": 1689181350795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,7 @@\n \n </head>\n <body>\n   Advice #117\n-\n   \"<!-- Advice text goes here -->\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689181943602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,11 @@\n   <title>Advice generator app</title>\n \n </head>\n <body>\n+  <div class=\"container\">\n+    \n+  </div>\n   Advice #117\n   \"<!-- Advice text goes here -->\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689181952257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,8 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    \n+    Advice #117\n   </div>\n-  Advice #117\n-  \"<!-- Advice text goes here -->\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689181966100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    Advice #117\n+    <p>Advice #117</p>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689181972334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p>Advice #117</p>\n+    <p>Advice <span>#117</span></p>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689181988900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p>Advice <span>#117</span></p>\n+    <p>Advice <span class=\"advice-num\">#117</span></p>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689182016865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,8 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n+    <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689182069383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,8 @@\n <body>\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n+    <img src=\"images/pattern-divider-desktop.svg\" alt=\"\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689182077257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n <body>\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n-    <img src=\"images/pattern-divider-desktop.svg\" alt=\"\">\n+    <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689182147486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+    <img src=\"images/icon-dice.svg\" alt=\"\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689182152617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n-    <img src=\"images/icon-dice.svg\" alt=\"\">\n+    <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689183258471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n-    <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+    <!-- <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\"> -->\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689183431935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <div class=\"container\">\n     <p>Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n-    <!-- <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\"> -->\n+    <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689183492343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p>Advice <span class=\"advice-num\">#117</span></p>\n+    <p class=\"adivce\">Advice <span class=\"advice-num\">#117</span></p>\n     <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n"
+                },
+                {
+                    "date": 1689183498922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"adivce\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p>It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n+    <p class=\"advice-text\">It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n"
+                },
+                {
+                    "date": 1689183515325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p class=\"adivce\">Advice <span class=\"advice-num\">#117</span></p>\n+    <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n     <p class=\"advice-text\">It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n"
+                },
+                {
+                    "date": 1689183875396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\">It is easy to sit up and take notice, whats difficult is getting up and taking action</p>\n+    <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n     <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n"
+                },
+                {
+                    "date": 1689184091876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n     <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n-    <img src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+    <img class=\"img-pattern\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689184098400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n     <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n-    <img class=\"img-pattern\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+    <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689184200958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n     <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n-    <img src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n+    <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689184797454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,11 @@\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n     <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n-    <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n+    <div>\n+      <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n+    </div>\n+   \n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689186114195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,17 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n-    <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n-    <div>\n-      <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n+    <div class=\"container-element\">\n+      <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n+      <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n+      <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+      <div>\n+        <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n+      </div>\n     </div>\n+  \n    \n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689186121907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,17 +10,14 @@\n \n </head>\n <body>\n   <div class=\"container\">\n-    <div class=\"container-element\">\n-      <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-      <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n-      <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n-      <div>\n-        <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n-      </div>\n+    <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n+    <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n+    <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n+    <div>\n+      <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n-  \n    \n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689186525862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n </head>\n <body>\n   <div class=\"container\">\n     <p class=\"advice\">Advice <span class=\"advice-num\">#117</span></p>\n-    <p class=\"advice-text\">\"It is easy to sit up and take notice, whats difficult is getting up and taking action\"</p>\n+    <p class=\"advice-text\">“It is easy to sit up and take notice, what's difficult is getting up and taking action.”</p>\n     <img class=\"pattern-divider\" src=\"images/pattern-divider-desktop.svg\" alt=\"pattern-divider-desktop\">\n     <div>\n       <img class=\"dice-icon\" src=\"images/icon-dice.svg\" alt=\"dice-icon\">\n     </div>\n"
+                }
+            ],
+            "date": 1689181310596,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n  <link rel=\"stylesheet\" href=\"style.css\">\n  \n  <title>Frontend Mentor | Advice generator app</title>\n\n</head>\n<body>\n  Advice #117\n\n  \"<!-- Advice text goes here -->\"\n</body>\n</html>"
+        }
+    ]
+}
