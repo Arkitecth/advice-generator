@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 223,
+            "activePatchIndex": 233,
             "patches": [
                 {
                     "date": 1689181445986,
@@ -900,6 +900,46 @@
                 {
                     "date": 1689186916698,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n \n .container {\n     margin: 0 auto;\n     background-color: var(--dark-grayish-blue);\n-    /* max-width: 540px; */\n+    max-width: 540px;\n     padding: 50px;\n     border-radius: 10px;\n     box-shadow: 0px 10px 10px var(--dark-blue);\n     display: flex;\n"
+                },
+                {
+                    "date": 1689187137142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,5 +71,9 @@\n }\n \n .container div:hover {\n     box-shadow: 0px 0px 10px var(--neon-green);\n+}\n+\n+@media screen {\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187153718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,7 +73,7 @@\n .container div:hover {\n     box-shadow: 0px 0px 10px var(--neon-green);\n }\n \n-@media screen {\n+@media screen and (max-width:375px) {\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187160869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,6 +74,8 @@\n     box-shadow: 0px 0px 10px var(--neon-green);\n }\n \n @media screen and (max-width:375px) {\n-    \n+    body {\n+        background-color: white;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187188497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,8 @@\n     box-shadow: 0px 0px 10px var(--neon-green);\n }\n \n @media screen and (max-width:375px) {\n-    body {\n-        background-color: white;\n+    .container {\n+        width: 343px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187217471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,5 +77,9 @@\n @media screen and (max-width:375px) {\n     .container {\n         width: 343px;\n     }\n+\n+    .advice-text {\n+        width: 329px;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187230998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,7 +79,7 @@\n         width: 343px;\n     }\n \n     .advice-text {\n-        width: 329px;\n+        width: 295px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187250131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,6 +80,7 @@\n     }\n \n     .advice-text {\n         width: 295px;\n+        height: 132px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187255862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,7 +80,6 @@\n     }\n \n     .advice-text {\n         width: 295px;\n-        height: 132px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689187313002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,9 @@\n \n @media screen and (max-width:375px) {\n     .container {\n         width: 343px;\n+        height: 315px;\n     }\n \n     .advice-text {\n         width: 295px;\n"
+                },
+                {
+                    "date": 1689187325684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,8 @@\n \n @media screen and (max-width:375px) {\n     .container {\n         width: 343px;\n-        height: 315px;\n     }\n \n     .advice-text {\n         width: 295px;\n"
                 }
             ],
             "date": 1689181445986,
